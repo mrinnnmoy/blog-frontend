@@ -18,15 +18,23 @@
     --bg-color: #fff;
 }
 
-a{
+::selection {
+    color: var(--bg-color);
+    background: var(--second-color);
+}
+
+a {
     text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
 }
-img{
+
+img {
     width: 100%;
 }
-section{
+
+section {
     padding: 3rem 0 2rem;
 }
