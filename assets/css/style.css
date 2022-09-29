@@ -105,13 +105,13 @@ header {
     padding-bottom: 20px;
 }
 
-.home-subtitle{
+.home-subtitle {
     font-size: 1.5rem;
     font-weight: 400;
 }
 
 /*====== Post-Filter ======*/
-.post-filter{
+.post-filter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,13 +119,13 @@ header {
     margin-top: 2rem !important;
 }
 
-.filter-item{
+.filter-item {
     font-size: .9rem;
     font-weight: 500;
     cursor: pointer;
 }
 
-.active-filter{
+.active-filter {
     background: var(--second-color);
     color: var(--bg-color);
     padding: 4px 10px;
@@ -133,21 +133,21 @@ header {
 }
 
 /*====== Posts ======*/
-.post{
+.post {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     justify-content: center;
     gap: 1.5rem;
 }
 
-.post-box{
+.post-box {
     background: var(--bg-color);
     box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
     padding: 15px;
     border-radius: .5rem;
 }
 
-.post-img{
+.post-img {
     width: 100%;
     height: 200px;
     object-fit: cover;
@@ -155,14 +155,14 @@ header {
     border-radius: .5rem;
 }
 
-.category{
+.category {
     font-size: .9rem;
     font-weight: 500;
     text-transform: uppercase;
     color: var(--second-color);
 }
 
-.post-title{
+.post-title {
     font-size: 1.3rem;
     font-weight: 600;
     color: var(--text-color);
@@ -174,7 +174,7 @@ header {
     overflow: hidden;
 }
 
-.post-date{
+.post-date {
     display: flex;
     font-size: .875rem;
     text-transform: uppercase;
@@ -182,7 +182,7 @@ header {
     margin-top: 4px;
 }
 
-.post-description{
+.post-description {
     font-size: .9rem;
     line-height: 1.5rem;
     margin: 5px 0 10px;
@@ -194,17 +194,24 @@ header {
     overflow: hidden;
 }
 
-.profile{
+.profile {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: .5rem;
+    padding-left: 2.5rem;
 }
 
-.profile-img{
+.profile-img {
     width: 35px;
     height: 35px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
     border: 2px solid var(--second-color);
+}
+
+.profile-name {
+    font-size: .75rem;
+    text-transform: uppercase;
+    font-weight: 500;
 }
