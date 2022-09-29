@@ -16,3 +16,10 @@ $(document).ready(function () {
         $(this).addClass("active-filter").siblings().removeClass("active-filter");
     })
 });
+
+/*====== Header BG change on Scroll ======*/ 
+let header = document.querySelector('header')
+
+window.addEventListener('scroll', () => {
+    header.classList.toggle("shadow", window.scrollY > 0);
+});
