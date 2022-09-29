@@ -10,4 +10,9 @@ $(document).ready(function () {
             $(".post-box").filter("." + value).show("1000");
         }
     });
+
+    /*====== Add active to button ======*/
+    $(".filter-item").click(function(){
+        $(this).addClass("active-filter").siblings().removeClass("active-filter");
+    })
 });
