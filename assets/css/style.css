@@ -261,3 +261,64 @@ header.shadow .logo {
     padding-top: 10px;
     padding-bottom: 15px;
 }
+
+/*====== Breakpoints ======*/
+@media (max-width: 1060px){
+    .conatiner{
+        margin: 0 auto;
+        max-width: 960px;
+        width: 95%;
+        
+    }
+
+    .home-text{
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px){
+    .nav{
+        padding: 14px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav{
+        padding: 10px 0;
+    }
+
+    section{
+        padding: 2rem 0;
+    }
+
+    .home{
+        min-height: 380px;
+    }
+
+    .home-title{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 570px){
+    .footer{
+        flex-direction: column;
+        row-gap: .5rem;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 396px){
+    .home-title{
+        font-size: 2rem;
+    }
+
+    .home-subtitle{
+        font-size: .9rem;
+    }
+
+    .home{
+        min-height: 300px;
+    }
+}
+
