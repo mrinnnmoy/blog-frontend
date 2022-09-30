@@ -227,98 +227,142 @@ header.shadow .logo {
 }
 
 /*====== Footer ======*/
-.footer{
+.footer {
     display: grid;
     justify-content: center;
     background: var(--container-color);
     color: var(--bg-color);
 }
 
-.footer p{
+.footer p {
     padding: 20px 0;
     font-size: 1.5rem;
     font-weight: 450;
 }
 
-.social{
+.social {
     display: flex;
     justify-content: center;
     column-gap: 2rem;
 }
 
-.social  .bx{
+.social .bx {
     font-size: 1.4rem;
     color: var(--bg-color);
 }
 
-.social .bx:hover{
+.social .bx:hover {
     color: var(--second-color);
     transition: .3s all linear;
 }
 
-.footer span{
+.footer span {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 15px;
 }
 
 /*====== Breakpoints ======*/
-@media (max-width: 1060px){
-    .conatiner{
+@media (max-width: 1060px) {
+    .conatiner {
         margin: 0 auto;
         max-width: 960px;
         width: 95%;
-        
+
     }
 
-    .home-text{
+    .nav {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .home-text {
         width: 100%;
+    }
+
+    .post {
+        max-width: 90%;
     }
 }
 
-@media (max-width: 800px){
-    .nav{
-        padding: 14px 0;
+@media (max-width: 800px) {
+    .nav {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
 @media (max-width: 768px) {
-    .nav{
-        padding: 10px 0;
+    .nav {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
-    section{
+    section {
         padding: 2rem 0;
     }
 
-    .home{
+    .home {
         min-height: 380px;
     }
 
-    .home-title{
+    .home-title {
         font-size: 3rem;
     }
 }
 
-@media (max-width: 570px){
-    .footer{
+@media (max-width: 570px) {
+    .filter-item {
+        font-size: .75rem;
+    }
+
+    .post {
+        max-width: 70%;
+    }
+
+    .footer {
         flex-direction: column;
         row-gap: .5rem;
         padding: 20px 0;
     }
 }
 
-@media (max-width: 396px){
-    .home-title{
+@media (max-width: 396px) {
+    .nav{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .home-title {
         font-size: 2rem;
     }
 
-    .home-subtitle{
+    .home-subtitle {
         font-size: .9rem;
     }
 
-    .home{
+    .home {
         min-height: 300px;
     }
-}
 
+    .filter-item{
+        font-size: .6rem;
+        font-weight: 600;
+    }
+
+    .post{
+        max-width: 75%;
+    }
+
+    .post-title{
+        font-size: .85rem;
+    }
+
+    .post-description{
+        font-size: .75rem;
+    }
+
+    .footer p{
+        font-size: 1rem;
+    }
+}
