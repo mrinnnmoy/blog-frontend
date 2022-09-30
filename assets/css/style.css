@@ -225,3 +225,39 @@ header.shadow .logo {
     text-transform: uppercase;
     font-weight: 500;
 }
+
+/*====== Footer ======*/
+.footer{
+    display: grid;
+    justify-content: center;
+    background: var(--container-color);
+    color: var(--bg-color);
+}
+
+.footer p{
+    padding: 20px 0;
+    font-size: 1.5rem;
+    font-weight: 450;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.social  .bx{
+    font-size: 1.4rem;
+    color: var(--bg-color);
+}
+
+.social .bx:hover{
+    color: var(--second-color);
+    transition: .3s all linear;
+}
+
+.footer span{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
