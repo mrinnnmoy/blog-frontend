@@ -1,212 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Blog </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
 
     <!-- Link CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
     <!-- Box-icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- Header -->
     <header>
-        <!-- NavBar -->
-        <div class="nav container">
+      <!-- NavBar -->
+      <div class="nav container">
+        <!-- Logo -->
+        <a href="#" class="logo"> We<span>Blog</span> </a>
 
-            <!-- Logo -->
-            <a href="#" class="logo"> We<span>Blog</span> </a>
-
-            <!-- Logo Btn -->
-            <a href="#" class="login"> Login </a>
-        </div>
+        <!-- Logo Btn -->
+        <a href="#" class="login"> Login </a>
+      </div>
     </header>
 
     <!-- Home -->
     <section class="home" id="home">
-        <div class="home-text container">
-            <h2 class="home-title">Blogging for All</h2>
-            <span class="home-subtitle">Your source of great content</span>
-        </div>
+      <div class="home-text container">
+        <h2 class="home-title">Blogging for All</h2>
+        <span class="home-subtitle">Your source of great content</span>
+      </div>
     </section>
 
     <!-- Post Filter -->
     <div class="post-filter container">
-        <span class="filter-item active-filter" data-filter='all'>All</span>
-        <span class="filter-item" data-filter='fundamentals'>Fundamentals</span>
-        <span class="filter-item" data-filter='web'>Web</span>
-        <span class="filter-item" data-filter='blockchain'>BlockChain</span>
+      <span class="filter-item active-filter" data-filter="all">All</span>
+      <span class="filter-item" data-filter="fundamentals">Fundamentals</span>
+      <span class="filter-item" data-filter="web">Web</span>
+      <span class="filter-item" data-filter="blockchain">BlockChain</span>
     </div>
 
     <!-- Posts -->
     <section class="post container">
-        <!-- Post Box 1 -->
-        <div class="post-box web">
-            <img src="./assets/img/blog-1.jpg" alt="blog-1" class="post-img">
-            <h2 class="category">Web</h2>
-            <a href="https://mrinnnmoy.hashnode.dev/5-vs-code-extension-to-speed-up-your-development-time"
-                class="post-title">
-                5 VS Code Extensions for Faster Development
-            </a>
-            <span class="post-date">28 Oct 2022</span>
-            <p class="post-description">This blog is about 5 essential VS
-                Code extensions that a software developer
-                needs on a daily basis to reduce development time.
-            </p>
+      <!-- Post Box 1 -->
+      <div class="post-box web">
+        <img src="./assets/img/blog-1.jpg" alt="blog-1" class="post-img" />
+        <h2 class="category">Web</h2>
+        <a
+          href="https://mrinnnmoy.hashnode.dev/5-vs-code-extension-to-speed-up-your-development-time"
+          class="post-title"
+        >
+          5 VS Code Extensions for Faster Development
+        </a>
+        <span class="post-date">28 Oct 2022</span>
+        <p class="post-description">
+          This blog is about 5 essential VS Code extensions that a software
+          developer needs on a daily basis to reduce development time.
+        </p>
 
-            <!-- Profile -->
-            <div class="profile">
-                <img src="./assets/img/profile-1.png" alt="Profile-image" class="profile-img">
-                <span class="profile-name">Mrinmoy Porel</span>
-            </div>
+        <!-- Profile -->
+        <div class="profile">
+          <img
+            src="./assets/img/profile-1.png"
+            alt="Profile-image"
+            class="profile-img"
+          />
+          <span class="profile-name">Mrinmoy Porel</span>
         </div>
+      </div>
 
-        <!-- Post Box 2 -->
-        <div class="post-box blockchain">
-            <img src="./assets/img/blog-2.jpg" alt="blog-2" class="post-img">
-            <h2 class="category">BlockChain</h2>
-            <a href="#" class="post-title">
-                Introduction to BlockChain Technology
-            </a>
-            <span class="post-date">28 Oct 2022</span>
-            <p class="post-description">This blog is about an introduction
-                to the world of blockchain technology and how it interacts
-                with softwares keeping it highly secure and scalable.
-            </p>
+      <!-- Post Box 2 -->
+      <div class="post-box blockchain">
+        <img src="./assets/img/blog-2.jpg" alt="blog-2" class="post-img" />
+        <h2 class="category">BlockChain</h2>
+        <a href="#" class="post-title">
+          Introduction to BlockChain Technology
+        </a>
+        <span class="post-date">28 Oct 2022</span>
+        <p class="post-description">
+          This blog is about an introduction to the world of blockchain
+          technology and how it interacts with softwares keeping it highly
+          secure and scalable.
+        </p>
 
-            <!-- Profile -->
-            <div class="profile">
-                <img src="./assets/img/profile-2.jpg" alt="Profile-image" class="profile-img">
-                <span class="profile-name">Christina Paul</span>
-            </div>
+        <!-- Profile -->
+        <div class="profile">
+          <img
+            src="./assets/img/profile-2.jpg"
+            alt="Profile-image"
+            class="profile-img"
+          />
+          <span class="profile-name">Christina Paul</span>
         </div>
+      </div>
 
-        <!-- Post Box 3 -->
-        <div class="post-box fundamentals">
-            <img src="./assets/img/blog-3.jpg" alt="blog-3" class="post-img">
-            <h2 class="category">Fundamentals</h2>
-            <a href="#" class="post-title">
-                Steps to Avoid Burnouts in Corporate
-            </a>
-            <span class="post-date">28 Oct 2022</span>
-            <p class="post-description">This blog is about steps on how to avoid
-                corporate burnouts and build a long carrier for yourself.
-            </p>
+      <!-- Post Box 3 -->
+      <div class="post-box fundamentals">
+        <img src="./assets/img/blog-3.jpg" alt="blog-3" class="post-img" />
+        <h2 class="category">Fundamentals</h2>
+        <a href="#" class="post-title">
+          Steps to Avoid Burnouts in Corporate
+        </a>
+        <span class="post-date">28 Oct 2022</span>
+        <p class="post-description">
+          This blog is about steps on how to avoid corporate burnouts and build
+          a long carrier for yourself.
+        </p>
 
-            <!-- Profile -->
-            <div class="profile">
-                <img src="./assets/img/profile-3.jpg" alt="Profile-image" class="profile-img">
-                <span class="profile-name">Alex Sanchez</span>
-            </div>
+        <!-- Profile -->
+        <div class="profile">
+          <img
+            src="./assets/img/profile-3.jpg"
+            alt="Profile-image"
+            class="profile-img"
+          />
+          <span class="profile-name">Alex Sanchez</span>
         </div>
+      </div>
 
-        <!-- Post Box 4 -->
-        <div class="post-box fundamentals">
-            <img src="./assets/img/blog-4.jpg" alt="blog-4" class="post-img">
-            <h2 class="category">Fundamentals</h2>
-            <a href="#" class="post-title">
-                Work Station setup for Software Development
-            </a>
-            <span class="post-date">28 Oct 2022</span>
-            <p class="post-description">This blog is about how you could
-                organise your daily desk setup to keep all your required
-                items near you.
-            </p>
+      <!-- Post Box 4 -->
+      <div class="post-box fundamentals">
+        <img src="./assets/img/blog-4.jpg" alt="blog-4" class="post-img" />
+        <h2 class="category">Fundamentals</h2>
+        <a href="#" class="post-title">
+          Work Station setup for Software Development
+        </a>
+        <span class="post-date">28 Oct 2022</span>
+        <p class="post-description">
+          This blog is about how you could organise your daily desk setup to
+          keep all your required items near you.
+        </p>
 
-            <!-- Profile -->
-            <div class="profile">
-                <img src="./assets/img/profile-4.jpg" alt="Profile-image" class="profile-img">
-                <span class="profile-name">Gary V.</span>
-            </div>
+        <!-- Profile -->
+        <div class="profile">
+          <img
+            src="./assets/img/profile-4.jpg"
+            alt="Profile-image"
+            class="profile-img"
+          />
+          <span class="profile-name">Gary V.</span>
         </div>
+      </div>
 
-        <!-- Post Box 5 -->
-        <div class="post-box fundamentals">
-            <img src="./assets/img/blog-5.jpg" alt="blog-5" class="post-img">
-            <h2 class="category">Fundamentals</h2>
-            <a href="https://mrinnnmoy.hashnode.dev/monolithic-microservices-architecture" class="post-title">
-                Monolithic & Microservices Architecture
-            </a>
-            <span class="post-date">30 Sept 2022</span>
-            <p class="post-description">This article is about the architecture that
-                most software developers follow in order to build their projects.
-            </p>
+      <!-- Post Box 5 -->
+      <div class="post-box fundamentals">
+        <img src="./assets/img/blog-5.jpg" alt="blog-5" class="post-img" />
+        <h2 class="category">Fundamentals</h2>
+        <a
+          href="https://mrinnnmoy.hashnode.dev/monolithic-microservices-architecture"
+          class="post-title"
+        >
+          Monolithic &#38; Microservices Architecture
+        </a>
+        <span class="post-date">30 Sept 2022</span>
+        <p class="post-description">
+          This article is about the architecture that most software developers
+          follow in order to build their projects.
+        </p>
 
-            <!-- Profile -->
-            <div class="profile">
-                <img src="./assets/img/profile-1.png" alt="Profile-image" class="profile-img">
-                <span class="profile-name">Mrinmoy Porel</span>
-            </div>
+        <!-- Profile -->
+        <div class="profile">
+          <img
+            src="./assets/img/profile-1.png"
+            alt="Profile-image"
+            class="profile-img"
+          />
+          <span class="profile-name">Mrinmoy Porel</span>
         </div>
+      </div>
 
-        <!-- Post Box 6 -->
-        <div class="post-box web">
-            <img src="./assets/img/blog-6.webp" alt="blog-6" class="post-img">
-            <h2 class="category">Web</h2>
-            <a href="https://mrinnnmoy.hashnode.dev/getting-started-with-git-github" class="post-title">
-                Getting started with Git & Github.
-            </a>
-            <span class="post-date">10 Oct 2022</span>
-            <p class="post-description">This blog is about how, Git & GitHub is the most common tools used by developers
-                that
-                helps in managing different versions of your code and collaborate with others.
-            </p>
+      <!-- Post Box 6 -->
+      <div class="post-box web">
+        <img src="./assets/img/blog-6.webp" alt="blog-6" class="post-img" />
+        <h2 class="category">Web</h2>
+        <a
+          href="https://mrinnnmoy.hashnode.dev/getting-started-with-git-github"
+          class="post-title"
+        >
+          Getting started with Git &#38; Github.
+        </a>
+        <span class="post-date">10 Oct 2022</span>
+        <p class="post-description">
+          This blog is about how, Git &#38; GitHub is the most common tools used
+          by developers that helps in managing different versions of your code
+          and collaborate with others.
+        </p>
 
-            <!-- Profile -->
-            <div class="profile">
-                <img src="./assets/img/profile-1.png" alt="Profile-image" class="profile-img">
-                <span class="profile-name">Mrinmoy Porel</span>
-            </div>
+        <!-- Profile -->
+        <div class="profile">
+          <img
+            src="./assets/img/profile-1.png"
+            alt="Profile-image"
+            class="profile-img"
+          />
+          <span class="profile-name">Mrinmoy Porel</span>
         </div>
+      </div>
 
-        <!-- Post Box 7 -->
-        <div class="post-box web">
-            <img src="./assets/img/blog-7.webp" alt="blog-7" class="post-img">
-            <h2 class="category">Web</h2>
-            <a href="https://mrinnnmoy.hashnode.dev/advanced-concepts-on-git-github" class="post-title">
-                Advanced concepts on Git & GitHub.
-            </a>
-            <span class="post-date">13 Oct 2022</span>
-            <p class="post-description">
-                This article provides an in-depth knowledge about Git & GitHub, starting from Branches to Merge
-                Conflicts and much more.
-            </p>
+      <!-- Post Box 7 -->
+      <div class="post-box web">
+        <img src="./assets/img/blog-7.webp" alt="blog-7" class="post-img" />
+        <h2 class="category">Web</h2>
+        <a
+          href="https://mrinnnmoy.hashnode.dev/advanced-concepts-on-git-github"
+          class="post-title"
+        >
+          Advanced concepts on Git &#38; GitHub.
+        </a>
+        <span class="post-date">13 Oct 2022</span>
+        <p class="post-description">
+          This article provides an in-depth knowledge about Git &#38; GitHub,
+          starting from Branches to Merge Conflicts and much more.
+        </p>
 
-            <!-- Profile -->
-            <div class="profile">
-                <img src="./assets/img/profile-1.png" alt="Profile-image" class="profile-img">
-                <span class="profile-name">Mrinmoy Porel</span>
-            </div>
+        <!-- Profile -->
+        <div class="profile">
+          <img
+            src="./assets/img/profile-1.png"
+            alt="Profile-image"
+            class="profile-img"
+          />
+          <span class="profile-name">Mrinmoy Porel</span>
         </div>
+      </div>
 
+      <!-- Post Box 8 -->
+      <div class="post-box web">
+        <img src="./assets/img/blog-8.webp" alt="blog-8" class="post-img" />
+        <h2 class="category">Web</h2>
+        <a
+          href="https://mrinnnmoy.hashnode.dev/introduction-to-local-host-ip-address"
+          class="post-title"
+        >
+          Introduction to Local Host IP Address
+        </a>
+        <span class="post-date">05 Nov 2022</span>
+        <p class="post-description">
+          A localhost is an Internet Protocol loopback device which can be used
+          by TCP/IP applications to talk to themselves.
+        </p>
+
+        <!-- Profile -->
+        <div class="profile">
+          <img
+            src="./assets/img/profile-1.png"
+            alt="Profile-image"
+            class="profile-img"
+          />
+          <span class="profile-name">Mrinmoy Porel</span>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <div class="footer">
-        <p> Made with ❤️ by Mrinmoy Porel</p>
-        <div class="social">
-            <a href="#"><i class="bx bxl-linkedin"></i></a>
-            <a href="#"><i class="bx bxl-twitter"></i></a>
-            <a href="#"><i class="bx bxl-github"></i></a>
-        </div>
-        <span>&#169; All rights reserved.</span>
+      <p>Made with ❤️ by Mrinmoy Porel</p>
+      <div class="social">
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-github"></i></a>
+      </div>
+      <span>&#169; All rights reserved.</span>
     </div>
 
-
     <!-- JQuery Link -->
-    <script src="https://code.jquery.com/jquery-3.6.1.js"
-        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous">
-        </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Link JS -->
     <script src="./assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>
